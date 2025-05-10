@@ -1,10 +1,14 @@
 import { motion } from 'framer-motion';
 import { Slider } from '@/components/ui/slider';
+import HeroCalculator from '@/components/HeroCalculator';
 
 export default function Home() {
   return (
     <div className="min-h-screen bg-[#0F172A]">
-      {/* Hero Section */}
+      {/* Hero Calculator Section */}
+      <HeroCalculator />
+
+      {/* Main Hero Section */}
       <motion.section 
         initial={{ opacity: 0 }}
         animate={{ opacity: 1 }}
